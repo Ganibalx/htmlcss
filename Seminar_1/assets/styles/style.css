@@ -1,0 +1,28 @@
+h1 {
+    color: navy;
+}
+
+.title {
+    font-size: 40px;
+}
+
+#text{
+    background-color: aqua;
+}
+
+.my_photo{
+    width: 10%;
+    height: 10%;
+}
+
+.link{
+    width: 30px;
+}
+
+.goods{
+    width: 300px;
+}
+
+.goods_name{
+    font-size: 20px;
+}
