@@ -1,13 +1,26 @@
-h1 {
-    color: navy;
+a{
+    text-decoration: none;
+}
+
+.menu{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .title {
-    font-size: 40px;
+     color: #222222;
+     font-size: 28px;
+     line-height: 36px;
+     font-weight: bold;
 }
 
-#text{
-    background-color: aqua;
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
 }
 
 .my_photo{
@@ -23,6 +36,10 @@ h1 {
     width: 300px;
 }
 
-.goods_name{
-    font-size: 20px;
+.title2{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("../fonts/Roboto-Light.ttf");
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-top: 40px;
+    letter-spacing: -0.2px;
+    font-style: normal;
+}
+
+h2 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.box-wrapper {
+    display: flex;
+}
+
+.box {
+    margin: 20px;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+.box-text {
+    margin-bottom: 10px;
+}
+
+.box-link {
+    text-decoration: none;
+}
+
+.test-class {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.title-images {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.forms {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.buttom {
+    /*height: 30px;*/
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.buttom:hover {
+    background-color: #ff253b;
+}
