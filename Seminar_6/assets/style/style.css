@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-weight: 800;
+}
+html{
+    font-family: 'Open Sans';
+}
+*{
+    margin:0;
+}
+body{
+    background-color: #020A18;
+}
+.header{
+    background-color: #020b1b;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.menu_item{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.intro{
+    display: flex;
+    gap:128px;
+    width: 1146px;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro_upper_title{
+    color: #3A68B8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.intro_title{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+.intro_text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    width: 558px;
+}
+.intro_button_wrapper{
+    display: flex;
+    gap:20px;
+}
+.intro_button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3A68B8;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logos {
+    margin-top: 197px;
+    max-width: 1146px;
+    margin-bottom: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.image_text{
+    width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    clear:both;
+    gap: 68px;
+    align-items: center;
+    margin-bottom: 264px;
+}
+.image_text_title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 484px;
+}
+.image_text_par{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    margin-top: 30px;
+    margin-right: 24px;
+    opacity: 0.7;
+    max-width: 460px;
+}
+.image_text_button{
+    margin-top: 50px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #3A68B8;
+    border-style: none;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container-grid{
+    width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 243px;
+    gap: 30px;
+    text-align: center;
+}
+.item-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #132035;
+}
+.big-item{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    gap:60px;
+}
+.grid-img-big{
+    width: 306px;
+    height: 322px;
+}
+.grid-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    opacity: 0.7;
+}
+.grid-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+}
+@media screen and (max-width: 1439px) {
+    .intro, .image_text {
+        width: 767px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos {
+        max-width: 540px;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .intro_upper_title {
+        font-size: 16px;
+    }
+
+    .intro_title {
+        font-size: 48px;
+    }
+
+    .container-grid {
+        width: 362px;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        text-align: center;
+        justify-content: center;
+    }
+    .big-item{
+        display: none;
+    }
+}
