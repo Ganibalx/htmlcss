@@ -78,7 +78,6 @@ html {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: #211616B2;
 }
 .bkg{
     position: absolute;
@@ -157,4 +156,51 @@ html {
     font-weight: 400;
     background-color: #FFF;
     margin-bottom: 60px;
+}
+@media screen and (max-width: 1439px) {
+    .center {
+        max-width: 735px;
+    }
+    .navigation {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        margin-top: 27px;
+        margin-bottom: 18px;
+    }
+    .img-text{
+        max-width: 768px;
+        gap: 39px;
+    }
+    .pink-text {
+        max-width: 311px;
+        font-size: 44px;
+    }
+    .luxe{
+        font-size: 24px;
+    }
+    .fashin{
+        font-size: 24px;
+    }
+    .img-text img{
+        width: 386px;
+    }
+    .info-block{
+        gap: 19.9px;
+        margin-bottom: 109px;
+    }
+    .info img{
+        width: 100%;
+    }
+    .products-title{
+        margin-bottom: 3.3px;
+    }
+    .products-text{
+        margin-bottom: 73.74px;
+    }
+    .products-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 32.48px;
+    }
 }
