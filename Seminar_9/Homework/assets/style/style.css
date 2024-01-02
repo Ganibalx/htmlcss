@@ -30,7 +30,7 @@ html {
     margin-top: 26px;
     margin-bottom: 20px;
 }
-.menu-wrapper:active .menu_vipad{
+.menu-wrapper:hover .menu_vipad{
     display: block;
 }
 .menu_vipad{
@@ -212,6 +212,7 @@ html {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
+    border: 1px solid white;
 }
 .product_name{
     margin: 24px 16px 16px 16px;
@@ -357,6 +358,7 @@ html {
     border-radius: 0 20px 20px 0;
     background-color: #F16D7F;
     border-style: none;
+    color:white;
 }
 .footer-wrapper{
     background-color: #222224;
